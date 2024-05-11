@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: bisque;
+}
+
+strong {
+    color: #f00;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+}
+
+.center-h2 {
+    text-align: center;
+}
+
+.skills-hobbies {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.skills,
+.hobbies {
+    flex: 1;
+    margin-right: 10px;
+    padding: 0 10px;
+}
